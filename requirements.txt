@@ -1,4 +1,4 @@
-Flask
+Flask[async]
 Requests
 Bs4
 Lxml
