@@ -3,3 +3,4 @@ Requests
 Bs4
 Lxml
 asyncio
+Gunicorn
