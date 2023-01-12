@@ -4,4 +4,4 @@ Bs4
 Lxml
 asyncio
 Gunicorn
-Flask_cors
+Flask-cors
