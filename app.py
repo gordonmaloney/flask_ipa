@@ -4,7 +4,7 @@ import requests
 from bs4 import BeautifulSoup
 import lxml
 import asyncio
-from flask_cors import CORS
+from Flask_cors import CORS
 
 app = Flask(__name__)
 CORS(app)
