@@ -4,9 +4,10 @@ import requests
 from bs4 import BeautifulSoup
 import lxml
 import asyncio
+from flask_cors import CORS
 
 app = Flask(__name__)
-
+CORS(app)
 @app.route('/', methods=['GET'])
 def home_page():
     data_set = {'Msg': 'API running'}
